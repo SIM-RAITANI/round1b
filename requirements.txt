@@ -1,0 +1,11 @@
+PyMuPDF
+pandas
+numpy
+joblib
+torch
+sentence-transformers
+transformers
+nltk
+scikit-learn
+lightgbm
+pyarrow

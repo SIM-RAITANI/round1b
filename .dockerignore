@@ -1,0 +1,17 @@
+# Docker ignore file to reduce build context
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.md
+.vscode/
+.idea/
+input/
+output/

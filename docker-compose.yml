@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  modelpdf:
+    build: .
+    container_name: modelpdf-app
+    volumes:
+      # Mount input directory to provide PDFs and input JSON
+      - ./input:/app/input
+      # Mount output directory to get results
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
